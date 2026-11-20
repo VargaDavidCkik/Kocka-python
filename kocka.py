@@ -16,3 +16,26 @@ for i in range(30):
 h=int(input("\nHányasával írjuk ki a számokat: "))
 for i in range(0,len(k),h):
     print(k[i:i+h],end=" ")
+
+print("\n4. feladat")
+
+
+
+
+print("5.feladat")
+
+
+
+
+print("6. feladat")
+#Kérjük be a két kockával történő dobás egy lehetséges értékét! 
+# Ha olyan értéket adunk meg, ami nem lehetséges, akkor írja ki, hogy ilyen nem lehetséges és kérje újból!
+
+dobas=int(input("Mennyit dobjunk (2-12 között): "))
+while dobas<2 or dobas>12:
+    print("Ilyen dobás nem lehetséges")
+    dobas=int(input("Adj meg egy új számot (2-12 között): "))
+print(f"A dobás lehetséges, {dobas}")
+
+
+print("7. feladat")
