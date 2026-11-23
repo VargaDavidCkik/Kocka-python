@@ -23,9 +23,16 @@ print("\n4. feladat")
 
 
 print("5.feladat")
+#Két kockával dobunk 50-szer! Szimuláljuk ezt a ’d’ listában! Írjuk ki a dobásokat 5 sorban!
 
+d = []
+for i in range(50):
+    kocka1 = random.randint(1, 6)
+    kocka2 = random.randint(1, 6)
+    d.append(kocka1 + kocka2)
 
-
+for i in range(0, len(d), 10):
+    print(d[i:i+10])
 
 print("6. feladat")
 #Kérjük be a két kockával történő dobás egy lehetséges értékét! 
