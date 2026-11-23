@@ -46,3 +46,6 @@ print(f"A dobás lehetséges, {dobas}")
 
 
 print("7. feladat")
+#Írjuk ki, hogy hány db olyan értékű dobás volt!
+count = d.count(dobas)
+print(f"A {dobas} dobásból {count} db volt.")
