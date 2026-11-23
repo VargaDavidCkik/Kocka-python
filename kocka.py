@@ -18,8 +18,15 @@ for i in range(0,len(k),h):
     print(k[i:i+h],end=" ")
 
 print("\n4. feladat")
-
-
+db=0
+db2=0
+for i in range(30):
+    if k[i]<0:
+        db+=1
+    if k[i]==0:
+        db2+=1
+print(f"Negatív szamok:{db}")
+print(f"Nullák száma:{db2}")
 
 
 print("5.feladat")
